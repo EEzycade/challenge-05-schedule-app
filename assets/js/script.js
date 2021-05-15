@@ -7,7 +7,7 @@ var hours = ["9", "10", "11", "12", "1", "2", "3", "4", "5"];
 
 var today = moment();
 console.log(currentHour);
-currentDayEl.textContent = today.format("dddd, MMMM Do");
+currentDayEl.textContent = today.format("dddd, col-9M Do");
 
 function checkCurrentHour() {
     for (var i = 0; i < hours.length; i++) {
